@@ -445,10 +445,12 @@ a{color:inherit}
   const skip = document.getElementById('skip');
   const replay = document.getElementById('replay');
   let leaving = false;
+  let autoEnterTimer = window.setTimeout(enter, 11450);
 
   function enter(){
     if(leaving) return;
     leaving = true;
+    window.clearTimeout(autoEnterTimer);
     root.classList.add('fade-out');
     window.setTimeout(function(){ window.location.href = 'home.html'; }, 360);
   }
