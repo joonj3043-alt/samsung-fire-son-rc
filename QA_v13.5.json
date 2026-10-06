@@ -1,0 +1,12 @@
+{
+  "version": "v13.5",
+  "page": "about.html",
+  "h1_before": "한 사람의 삶에는 한 사람의 보장 기준이 필요합니다.",
+  "h1_after": "진심을 다하다.",
+  "subcopy_before": "말은 편하게, 확인은 꼼꼼하게.",
+  "subcopy_after": "상담은 편하게, 기준은 분명하게.",
+  "old_h1_remaining": false,
+  "old_subcopy_remaining": false,
+  "new_h1_present": true,
+  "new_subcopy_present": true
+}

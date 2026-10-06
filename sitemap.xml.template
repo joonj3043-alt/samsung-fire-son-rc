@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url><loc>{SITE_URL}/home.html</loc></url>
+  <url><loc>{SITE_URL}/about.html</loc></url>
+  <url><loc>{SITE_URL}/samsung.html</loc></url>
+  <url><loc>{SITE_URL}/products.html</loc></url>
+  <url><loc>{SITE_URL}/care.html</loc></url>
+  <url><loc>{SITE_URL}/health.html</loc></url>
+  <url><loc>{SITE_URL}/cancer.html</loc></url>
+  <url><loc>{SITE_URL}/driver.html</loc></url>
+  <url><loc>{SITE_URL}/fire.html</loc></url>
+  <url><loc>{SITE_URL}/car.html</loc></url>
+  <url><loc>{SITE_URL}/claim.html</loc></url>
+  <url><loc>{SITE_URL}/review.html</loc></url>
+  <url><loc>{SITE_URL}/contact.html</loc></url>
+  <url><loc>{SITE_URL}/privacy.html</loc></url>
+  <url><loc>{SITE_URL}/hidden-insurance.html</loc></url>
+</urlset>

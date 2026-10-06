@@ -1,0 +1,30 @@
+{
+  "version": "v13.8",
+  "review_conclusion": [
+    "기존 상담 버튼은 전화·문자 버튼과 동시에 강하게 보여 CTA 우선순위가 분산됨",
+    "상담 버튼을 사이트 메인 CTA로 격상",
+    "전화·문자는 빠른 실행용 보조 버튼으로 톤 다운",
+    "상단 메뉴 간격과 브랜드/버튼 사이 여백을 다시 조정",
+    "1180~1260px 구간 전용 간격 보정 추가",
+    "모바일 메뉴에서는 상담 버튼을 전체 폭 CTA로 유지"
+  ],
+  "changed_pages": [
+    "404.html",
+    "about.html",
+    "cancer.html",
+    "car.html",
+    "care.html",
+    "claim.html",
+    "contact.html",
+    "driver.html",
+    "fire.html",
+    "health.html",
+    "hidden-insurance.html",
+    "index.html",
+    "privacy.html",
+    "products.html",
+    "review.html",
+    "samsung.html"
+  ],
+  "blocking_issues": []
+}

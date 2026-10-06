@@ -1,0 +1,13 @@
+{
+  "version": "v13.1",
+  "building_image_replaced": true,
+  "image_size": [
+    1200,
+    1499
+  ],
+  "changed_pages": [
+    "index.html",
+    "contact.html"
+  ],
+  "note": "AI 생성 건물 이미지를 오시는 길 안내용 이미지로 표기해 실제 건물 외관으로 오인되지 않도록 처리"
+}

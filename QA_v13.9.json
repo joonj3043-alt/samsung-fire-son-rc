@@ -1,0 +1,29 @@
+{
+  "version": "v13.9",
+  "changes": [
+    "상단 메인 CTA 문구 '상담' → '문의'",
+    "파란색 CTA 디자인 유지",
+    "CTA 오른쪽 화살표 제거",
+    "16개 HTML 페이지 동일 적용",
+    "CSS 캐시 버전 v13.9 적용"
+  ],
+  "changed_pages": [
+    "404.html",
+    "about.html",
+    "cancer.html",
+    "car.html",
+    "care.html",
+    "claim.html",
+    "contact.html",
+    "driver.html",
+    "fire.html",
+    "health.html",
+    "hidden-insurance.html",
+    "index.html",
+    "privacy.html",
+    "products.html",
+    "review.html",
+    "samsung.html"
+  ],
+  "blocking_issues": []
+}

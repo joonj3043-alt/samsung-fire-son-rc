@@ -1,0 +1,12 @@
+{
+  "version": "18.1-mobilefix",
+  "fixes": [
+    "모바일 하단 전화/문자 상담바가 화면 전체 높이로 늘어나 본문을 덮는 문제 수정",
+    "기존 style.css의 전역 nav 모바일 규칙(top:112px 등)이 mobile-conversion-bar에 상속되던 충돌 차단",
+    "하단 상담바 높이를 52~54px로 고정하고 top:auto로 리셋",
+    "safe-area-inset-bottom을 적용해 모바일 하단 제스처 영역 대응",
+    "모바일 본문 하단 여백을 상담바 높이에 맞게 보정",
+    "CSS 캐시 무효화를 위해 unified-v13.css 버전을 18.1-mobilefix로 갱신"
+  ],
+  "status": "mobile conversion bar regression fixed"
+}

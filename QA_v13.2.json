@@ -1,0 +1,8 @@
+{
+  "version": "v13.2",
+  "removed_visible_building_image_note": true,
+  "changed_pages": [
+    "index.html",
+    "contact.html"
+  ]
+}

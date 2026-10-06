@@ -1,0 +1,31 @@
+{
+  "version": "17.0",
+  "changes": [
+    "CTA fallback hrefs normalized to tel/sms",
+    "Home hero low-friction reassurance and CTA copy refined",
+    "Home consulting-principles trust section added",
+    "Product-page CTA commitment lowered",
+    "OG fallback changed to dedicated son-sungjoon-og.jpg",
+    "CSS cache version bumped"
+  ],
+  "files_modified": [
+    "driver.html",
+    "about.html",
+    "index.html",
+    "claim.html",
+    "review.html",
+    "car.html",
+    "samsung.html",
+    "fire.html",
+    "home.html",
+    "care.html",
+    "contact.html",
+    "cancer.html",
+    "products.html",
+    "privacy.html",
+    "404.html",
+    "health.html",
+    "hidden-insurance.html",
+    "js/main.js"
+  ]
+}

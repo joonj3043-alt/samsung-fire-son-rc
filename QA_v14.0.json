@@ -1,0 +1,15 @@
+{
+  "version": "v14.0",
+  "concept": "간병보험 시네마틱 인트로 → 클릭 또는 SKIP → 기존 메인 홈페이지",
+  "behavior": [
+    "도메인 첫 진입(index.html)에서 풀스크린 간병보험 시네마틱 인트로 재생",
+    "인트로 화면 어느 곳을 눌러도 메인(home.html)으로 이동",
+    "우측 상단 SKIP으로 즉시 메인 이동",
+    "인트로 종료 후 자동 이동하지 않고 마지막 장면에 머무름",
+    "모바일 터치 및 키보드 Enter/Space 지원",
+    "모션 감소 설정에서는 마지막 장면을 즉시 표시",
+    "인트로는 noindex,follow / 실제 메인 페이지는 home.html로 분리"
+  ],
+  "html_page_count": 17,
+  "blocking_issues": []
+}

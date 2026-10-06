@@ -1,0 +1,7 @@
+{
+  "version": "v14.6S",
+  "base": "v14.6 user-selected baseline",
+  "change": "Only Samsung Fire tab content/structure/layout imported from 15.x; all other pages remain v14.6 baseline.",
+  "source_15x": "손성준_RC_실사용_유림가이드_v15.2.zip",
+  "blocking_issues": []
+}

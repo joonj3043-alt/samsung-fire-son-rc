@@ -1,0 +1,130 @@
+{
+  "version": "v13.7",
+  "focus": [
+    "상단 상담 CTA 시각적 강화",
+    "상단 메뉴 글자 간격과 버튼 밀도 조정",
+    "홈 메인 제목/본문 자간 및 행간 보정",
+    "홈 섹션 간 여백과 카드 간격 보정",
+    "서브페이지 제목 자간/행간 통일",
+    "모바일 메뉴 상담 CTA 별도 강조",
+    "CSS 캐시 버전 13.7 갱신"
+  ],
+  "html_pages": 16,
+  "blocking_issues": [],
+  "pages_changed_for_css_cache": [
+    "404.html",
+    "about.html",
+    "cancer.html",
+    "car.html",
+    "care.html",
+    "claim.html",
+    "contact.html",
+    "driver.html",
+    "fire.html",
+    "health.html",
+    "hidden-insurance.html",
+    "index.html",
+    "privacy.html",
+    "products.html",
+    "review.html",
+    "samsung.html"
+  ],
+  "page_results": {
+    "404.html": {
+      "nav_ok": true,
+      "consult_cta_ok": true,
+      "missing_refs": [],
+      "duplicate_ids": []
+    },
+    "about.html": {
+      "nav_ok": true,
+      "consult_cta_ok": true,
+      "missing_refs": [],
+      "duplicate_ids": []
+    },
+    "cancer.html": {
+      "nav_ok": true,
+      "consult_cta_ok": true,
+      "missing_refs": [],
+      "duplicate_ids": []
+    },
+    "car.html": {
+      "nav_ok": true,
+      "consult_cta_ok": true,
+      "missing_refs": [],
+      "duplicate_ids": []
+    },
+    "care.html": {
+      "nav_ok": true,
+      "consult_cta_ok": true,
+      "missing_refs": [],
+      "duplicate_ids": []
+    },
+    "claim.html": {
+      "nav_ok": true,
+      "consult_cta_ok": true,
+      "missing_refs": [],
+      "duplicate_ids": []
+    },
+    "contact.html": {
+      "nav_ok": true,
+      "consult_cta_ok": true,
+      "missing_refs": [],
+      "duplicate_ids": []
+    },
+    "driver.html": {
+      "nav_ok": true,
+      "consult_cta_ok": true,
+      "missing_refs": [],
+      "duplicate_ids": []
+    },
+    "fire.html": {
+      "nav_ok": true,
+      "consult_cta_ok": true,
+      "missing_refs": [],
+      "duplicate_ids": []
+    },
+    "health.html": {
+      "nav_ok": true,
+      "consult_cta_ok": true,
+      "missing_refs": [],
+      "duplicate_ids": []
+    },
+    "hidden-insurance.html": {
+      "nav_ok": true,
+      "consult_cta_ok": true,
+      "missing_refs": [],
+      "duplicate_ids": []
+    },
+    "index.html": {
+      "nav_ok": true,
+      "consult_cta_ok": true,
+      "missing_refs": [],
+      "duplicate_ids": []
+    },
+    "privacy.html": {
+      "nav_ok": true,
+      "consult_cta_ok": true,
+      "missing_refs": [],
+      "duplicate_ids": []
+    },
+    "products.html": {
+      "nav_ok": true,
+      "consult_cta_ok": true,
+      "missing_refs": [],
+      "duplicate_ids": []
+    },
+    "review.html": {
+      "nav_ok": true,
+      "consult_cta_ok": true,
+      "missing_refs": [],
+      "duplicate_ids": []
+    },
+    "samsung.html": {
+      "nav_ok": true,
+      "consult_cta_ok": true,
+      "missing_refs": [],
+      "duplicate_ids": []
+    }
+  }
+}

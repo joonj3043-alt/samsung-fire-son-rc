@@ -1,0 +1,26 @@
+{
+  "version": "v13 design-unified delivery",
+  "html_pages": 16,
+  "blocking_issues": [],
+  "unified_components": {
+    "header_notice_nav_actions": true,
+    "subpage_hero_system": true,
+    "button_typography_card_language": true,
+    "shared_footer": true,
+    "mobile_call_sms_bar": true,
+    "page_specific_context_keywords": true
+  },
+  "polish_completed": [
+    "RC 소개 브랜드 카드의 미완성 문구 제거 및 정식 브랜드 그래픽으로 정리",
+    "보험상품 하위 페이지는 보험상품 메뉴 활성화로 정보 구조 유지",
+    "홈과 서브페이지의 1380px 상단 쉘 기준 통일",
+    "서브페이지 본문은 가독성을 위해 1220px로 제한",
+    "기존 보험 안내 내용과 공식 외부 링크는 유지"
+  ],
+  "manual_prelaunch_remaining": [
+    "실제 도메인 연결 후 siteUrl/canonical/sitemap/robots 최종 확정",
+    "iPhone Safari 및 Android Chrome 실제 기기 확인",
+    "전화·문자 딥링크 실제 단말 확인",
+    "삼성화재 내부 광고·준법 최종 검토"
+  ]
+}
