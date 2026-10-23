@@ -1442,3 +1442,16 @@ body.site-unified .btn.outline,body.site-unified .btn-ghost{box-shadow:none;back
  body.page-home .soncare-hero .hero-art:before{z-index:2!important;inset:0!important;background:linear-gradient(90deg,#f8fbfe 0%,rgba(248,251,254,.99) 10%,rgba(248,251,254,.92) 18%,rgba(248,251,254,.58) 27%,rgba(248,251,254,.13) 39%,transparent 52%)!important}
  body.page-home .soncare-hero .soncare-sign{z-index:5!important;right:clamp(28px,4vw,80px)!important}
 }
+
+/* v19.4 — seamless B homepage hero. One continuous full-width photographic canvas,
+   rather than a square photo layer with a visible left border. PC only. */
+@media (min-width:1101px){
+ body.page-home .soncare-hero{position:relative!important;isolation:isolate!important;overflow:hidden!important;background:#f8fbfe!important}
+ body.page-home .soncare-hero::before{content:"";position:absolute;inset:0;z-index:0;pointer-events:none;background-image:url('../assets/images/soncare-home-b-seamless-v19.jpg');background-position:center center;background-size:cover;background-repeat:no-repeat}
+ body.page-home .soncare-hero .hero-inner{position:relative!important;z-index:1;display:block!important;min-height:560px!important}
+ body.page-home .soncare-hero .hero-copy{width:690px!important;max-width:56%!important;min-height:560px!important;padding:48px 0!important;position:relative!important;z-index:3!important}
+ body.page-home .soncare-hero .hero-copy h1{white-space:nowrap!important;font-size:clamp(43px,3.3vw,60px)!important}
+ body.page-home .soncare-hero .hero-art{position:absolute!important;inset:0!important;width:auto!important;min-height:0!important;overflow:visible!important;pointer-events:none!important;z-index:2!important}
+ body.page-home .soncare-hero .hero-art .photo,body.page-home .soncare-hero .hero-art:before{display:none!important}
+ body.page-home .soncare-hero .soncare-sign{position:absolute!important;right:clamp(20px,3vw,55px)!important;bottom:32px!important;z-index:3!important}
+}
