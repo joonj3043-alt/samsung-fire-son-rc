@@ -35,7 +35,7 @@ document.querySelectorAll('[data-claim-url]').forEach(e=>{
 
 let base=(c.siteUrl||'').replace(/\/$/,'');
 if(!base && /^https?:$/.test(location.protocol)){
-  base=location.origin+location.pathname.replace(/\/[^/]*$/,'');
+  base=location.origin;
 }
 if(base){
   document.querySelectorAll('[data-canonical-path]').forEach(e=>{
