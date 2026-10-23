@@ -1211,3 +1211,44 @@ body.site-unified .btn.outline,body.site-unified .btn-ghost{box-shadow:none;back
     background:linear-gradient(90deg,#fff 0%,rgba(255,255,255,.99) 39%,rgba(255,255,255,.76) 52%,rgba(255,255,255,.18) 67%,transparent 81%);
   }
 }
+
+
+/* v18.6 desktop: shared visual centering for all top-level page hero variations.
+   Scope to large desktop only; tablet, mobile, page content and assets unchanged. */
+@media (min-width:1101px){
+  /* Standard sections (about, contact, insurance detail, company). */
+  body.subpage .page-hero-inner{
+    grid-template-columns:minmax(0,1.14fr) minmax(300px,.68fr);
+    gap:clamp(40px,4vw,68px);
+  }
+  body.subpage .page-hero-copy{max-width:880px}
+  /* Image-based product and insurance-review landing pages. */
+  .care-hero-grid,.review-hero-grid{
+    grid-template-columns:minmax(0,1.03fr) minmax(0,.97fr);
+  }
+  .care-hero-copy,.review-hero-copy{max-width:710px}
+  .care-hero-photo,.review-hero-photo{
+    width:min(60vw,875px);
+    right:calc((100vw - min(1360px,94vw)) / -2);
+  }
+  .care-hero-photo{background-position:51% center}
+  .review-hero-photo{background-position:46% center}
+  /* The copy-photo blend should look like one intentional composition. */
+  .care-hero:after{
+    background:linear-gradient(90deg,#fff 0%,rgba(255,250,245,.98) 36%,rgba(255,250,245,.72) 48%,rgba(255,250,245,.12) 64%,transparent 80%);
+  }
+  .review-hero:after{
+    background:linear-gradient(90deg,#fff 0%,rgba(255,255,255,.98) 36%,rgba(255,255,255,.72) 48%,rgba(255,255,255,.12) 64%,transparent 80%);
+  }
+  /* Illustration-driven claims and unclaimed-benefit landing pages. */
+  .claim-v164-hero-grid,.hidden-v165-hero-grid{
+    grid-template-columns:minmax(0,1.04fr) minmax(0,.96fr);
+  }
+  .claim-v164-copy,.hidden-v165-copy{max-width:700px}
+  .claim-v164-visual,.hidden-v165-visual{
+    right:calc((100vw - min(1380px,94vw)) / -2);
+    width:min(55vw,820px);
+  }
+  .claim-paper-stack{transform:rotate(-2deg) translate(34px,12px)}
+  .hidden-folder{margin-left:55px}
+}
