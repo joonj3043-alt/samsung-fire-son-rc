@@ -1455,3 +1455,16 @@ body.site-unified .btn.outline,body.site-unified .btn-ghost{box-shadow:none;back
  body.page-home .soncare-hero .hero-art .photo,body.page-home .soncare-hero .hero-art:before{display:none!important}
  body.page-home .soncare-hero .soncare-sign{position:absolute!important;right:clamp(20px,3vw,55px)!important;bottom:32px!important;z-index:3!important}
 }
+
+/* v20: seamless original-photo composition. Overrides earlier experimental v17-19 image rules. */
+@media (min-width:1101px){
+ body.page-home .soncare-hero{background:#f8fbfe!important;isolation:isolate!important;overflow:hidden!important}
+ body.page-home .soncare-hero::before{background-image:url('../assets/images/soncare-home-b-seamless-v20.jpg')!important;background-position:center!important;background-size:cover!important;z-index:0!important}
+ body.page-home .soncare-hero .hero-inner{max-width:1280px!important;min-height:560px!important;display:block!important}
+ body.page-home .soncare-hero .hero-copy{min-height:560px!important;width:710px!important;max-width:60%!important;padding:45px 0!important;position:relative!important;z-index:3!important}
+ body.page-home .soncare-hero .hero-copy h1{white-space:nowrap!important;font-size:clamp(42px,3.25vw,59px)!important;letter-spacing:-.065em!important}
+ body.page-home .soncare-hero .soncare-mainline{font-size:18px!important;white-space:nowrap!important}
+ body.page-home .soncare-hero .hero-art{position:absolute!important;inset:0!important;pointer-events:none!important;z-index:2!important;overflow:visible!important}
+ body.page-home .soncare-hero .hero-art .photo,body.page-home .soncare-hero .hero-art::before{display:none!important}
+ body.page-home .soncare-hero .soncare-sign{right:max(-80px, calc((1280px - 100vw) / 2 + 40px))!important;bottom:30px!important;z-index:4!important}
+}
