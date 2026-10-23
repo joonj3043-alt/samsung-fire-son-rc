@@ -1172,3 +1172,42 @@ body.site-unified .btn.outline,body.site-unified .btn-ghost{box-shadow:none;back
     font-size:15px!important;
   }
 }
+
+
+/* ===== v18.5.0 — PC subpage photo-hero balance tuning ===== */
+@media (min-width:901px){
+  .care-hero-grid,
+  .review-hero-grid{
+    grid-template-columns:minmax(0,.96fr) minmax(0,1.04fr);
+    max-width:1360px;
+  }
+  .care-hero-copy,
+  .review-hero-copy{
+    max-width:690px;
+    padding-top:64px;
+    padding-bottom:58px;
+  }
+  .care-hero-copy h1,
+  .review-hero-copy h1{max-width:640px}
+  .care-hero-copy>p:not(.eyebrow),
+  .review-lead,
+  .review-mini-points{max-width:590px}
+  .care-hero-photo,
+  .review-hero-photo{
+    width:min(61vw,880px);
+  }
+  .care-hero-photo{
+    right:calc((100vw - min(1360px,94vw))/ -2);
+    background-position:53% center;
+  }
+  .review-hero-photo{
+    right:calc((100vw - min(1360px,94vw))/ -2);
+    background-position:47% center;
+  }
+  .care-hero:after{
+    background:linear-gradient(90deg,#fff 0%,rgba(255,250,245,.99) 39%,rgba(255,250,245,.76) 52%,rgba(255,250,245,.18) 67%,transparent 81%);
+  }
+  .review-hero:after{
+    background:linear-gradient(90deg,#fff 0%,rgba(255,255,255,.99) 39%,rgba(255,255,255,.76) 52%,rgba(255,255,255,.18) 67%,transparent 81%);
+  }
+}
