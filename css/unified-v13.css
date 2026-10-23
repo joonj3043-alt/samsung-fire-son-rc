@@ -1384,3 +1384,34 @@ body.site-unified .btn.outline,body.site-unified .btn-ghost{box-shadow:none;back
  body.page-products .care-hero-photo,body.page-review .review-hero-photo{display:none;}
  body.page-products .care-hero-copy h1 .care-hero-title-line{font-size:clamp(35px,3.1vw,50px);}
 }
+
+
+/* v19.1.0 — SON CARE ONE B-style desktop homepage and readable PC navigation. */
+@media (min-width:1451px){
+  .unified-header .nav{height:90px;gap:14px}
+  .unified-header .brand .rc{min-width:196px;padding-left:60px;padding-right:18px}
+  .unified-header .brand .rc:before{width:54px;height:64px}
+  .unified-header .brand .rc b{font-size:22px}
+  .unified-header .brand .rc small{font-size:10.5px}
+  .unified-header .brand .sf{font-size:22px;min-width:118px}
+  .unified-header .menu{gap:14px;font-size:14px}
+  .unified-header .menu>a{padding:34px 0 30px!important}
+  .unified-header .menu>a.active:after,.unified-header .menu>a[aria-current="page"]:after{bottom:20px}
+  .unified-header .menu>a.nav-consult{min-height:46px;padding:0 15px!important;min-width:92px;margin-left:2px;font-size:14px}
+  .unified-header .head-actions{gap:7px;padding-left:9px}
+  .unified-header .head-actions .btn,.unified-header .head-actions .btn.primary,.unified-header .head-actions .btn.outline{height:42px;min-height:42px;padding:0 10px;font-size:12px}
+}
+/* Preserve full menu at typical laptop widths, where larger fonts would crowd links. */
+@media (min-width:1281px) and (max-width:1450px){
+  .unified-header .nav{height:86px}
+  .unified-header .menu{font-size:12.5px;gap:11px}
+}
+/* Full-bleed background on PC: preserve existing two-column text/portrait proportions. */
+@media (min-width:1101px){
+  body.page-home .soncare-hero{position:relative;isolation:isolate;overflow:hidden;background:linear-gradient(105deg,#fff 0%,#f7fbff 58%,#e7f1f9 100%)}
+  body.page-home .soncare-hero .hero-inner{position:relative;min-height:570px}
+  body.page-home .soncare-hero .hero-art{overflow:visible;min-height:570px;margin-right:calc(-1 * max(22px,(100vw - 1380px)/2));}
+  body.page-home .soncare-hero .hero-art .photo{overflow:hidden}
+  body.page-home .soncare-hero .hero-art .photo img{object-fit:cover;object-position:50% 28%;}
+  body.page-home .soncare-hero .hero-art:before{background:linear-gradient(90deg,#f7fbff 0%,rgba(247,251,255,.88) 9%,rgba(247,251,255,.26) 28%,transparent 44%)}
+}
