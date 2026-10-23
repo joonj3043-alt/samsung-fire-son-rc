@@ -1279,3 +1279,27 @@ body.site-unified .btn.outline,body.site-unified .btn-ghost{box-shadow:none;back
 @media (min-width:1101px) and (max-width:1360px){
   body.page-products .care-hero-copy,body.page-review .review-hero-copy{transform:translateX(-20px)}
 }
+
+/* v18.8.0 · Samsung company content alignment, desktop-only.
+   Prior design aligned the right-side explanatory paragraph to the bottom
+   of a much taller multi-line title, causing apparent right-heavy balance. */
+@media (min-width:1101px){
+  body.page-samsung .p15-company-intro{
+    grid-template-columns:minmax(0,1.1fr) minmax(0,.9fr);
+    column-gap:clamp(32px,4vw,60px);
+    align-items:center;
+  }
+  body.page-samsung .p15-company-intro>p{
+    align-self:center;
+    max-width:520px;
+  }
+  body.page-samsung .p15-company-intro h2{
+    font-size:clamp(34px,3vw,45px);
+    line-height:1.27;
+  }
+  body.page-samsung .page-hero-inner{
+    grid-template-columns:minmax(0,1fr) minmax(350px,.78fr);
+    gap:clamp(38px,4vw,65px);
+  }
+  body.page-samsung .page-context-card{width:100%;max-width:520px;justify-self:center;}
+}
