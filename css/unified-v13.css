@@ -1468,3 +1468,9 @@ body.site-unified .btn.outline,body.site-unified .btn-ghost{box-shadow:none;back
  body.page-home .soncare-hero .hero-art .photo,body.page-home .soncare-hero .hero-art::before{display:none!important}
  body.page-home .soncare-hero .soncare-sign{right:max(-80px, calc((1280px - 100vw) / 2 + 40px))!important;bottom:30px!important;z-index:4!important}
 }
+
+/* v21: smooth photographic backdrop without white/grey vertical seam (desktop home only) */
+@media (min-width:1101px){
+ body.page-home .soncare-hero::before{background-image:url('../assets/images/soncare-home-b-blended-v21.jpg')!important;background-size:100% 100%!important;background-position:center!important;}
+ body.page-home .soncare-hero{background:#f9fcfe!important}
+}
