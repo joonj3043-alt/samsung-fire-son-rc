@@ -1415,3 +1415,15 @@ body.site-unified .btn.outline,body.site-unified .btn-ghost{box-shadow:none;back
   body.page-home .soncare-hero .hero-art .photo img{object-fit:cover;object-position:50% 28%;}
   body.page-home .soncare-hero .hero-art:before{background:linear-gradient(90deg,#f7fbff 0%,rgba(247,251,255,.88) 9%,rgba(247,251,255,.26) 28%,transparent 44%)}
 }
+
+/* v19.2.0: genuine full-bleed B composition on desktop; no separate right-side panel. */
+@media (min-width:1101px){
+  body.page-home .soncare-hero{background:linear-gradient(90deg,#fff 0%,#f8fbfe 45%,#e8f1f8 100%);overflow:hidden}
+  body.page-home .soncare-hero .hero-inner{position:relative;min-height:570px}
+  body.page-home .soncare-hero .hero-copy{position:relative;z-index:3;width:56%;max-width:760px;pointer-events:auto}
+  body.page-home .soncare-hero .hero-art{position:absolute;z-index:1;left:43%;right:calc(-1 * max(22px, (100vw - 1380px)/2));top:0;bottom:0;width:auto!important;height:100%;min-height:0;overflow:visible;margin-right:0!important}
+  body.page-home .soncare-hero .hero-art .photo{position:absolute;inset:0;overflow:visible;background-image:url('../assets/images/soncare-home-b-expanded-v17.jpg');background-size:100% 100%;background-position:center}
+  body.page-home .soncare-hero .hero-art .photo img{opacity:0}
+  body.page-home .soncare-hero .hero-art:before{position:absolute;inset:0;z-index:2;content:'';background:linear-gradient(90deg,#f8fbfe 0%,rgba(248,251,254,.93) 6%,rgba(248,251,254,.45) 20%,transparent 38%)}
+  body.page-home .soncare-hero .soncare-sign{z-index:4;right:clamp(25px,4vw,72px)}
+}
