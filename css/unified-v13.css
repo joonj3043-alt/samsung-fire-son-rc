@@ -1252,3 +1252,30 @@ body.site-unified .btn.outline,body.site-unified .btn-ghost{box-shadow:none;back
   .claim-paper-stack{transform:rotate(-2deg) translate(34px,12px)}
   .hidden-folder{margin-left:55px}
 }
+
+/* v18.7.0 — Real desktop visual re-centering, not only grid proportions.
+   On wide screens, move the copy toward the left and expand the image stage
+   toward center while preserving its right-edge coverage. Mobile untouched. */
+@media (min-width:1101px){
+  body.page-products .care-hero-copy,
+  body.page-review .review-hero-copy{
+    transform:translateX(-42px);
+  }
+  body.page-products .care-hero-photo,
+  body.page-review .review-hero-photo{
+    width:min(calc(60vw + 130px),1000px);
+    background-position:58% center;
+  }
+  body.page-products .care-hero:after{
+    background:linear-gradient(90deg,#fff 0%,rgba(255,250,245,.98) 30%,rgba(255,250,245,.86) 38%,rgba(255,250,245,.35) 53%,transparent 69%);
+  }
+  body.page-review .review-hero:after{
+    background:linear-gradient(90deg,#fff 0%,rgba(255,255,255,.98) 30%,rgba(255,255,255,.86) 38%,rgba(255,255,255,.35) 53%,transparent 69%);
+  }
+  /* Remaining template-based top hero sections: bring visual column inward. */
+  body.subpage .page-hero-inner{gap:clamp(24px,2.5vw,42px)}
+  .claim-v164-hero-grid,.hidden-v165-hero-grid{grid-template-columns:minmax(0,1.12fr) minmax(0,.88fr)}
+}
+@media (min-width:1101px) and (max-width:1360px){
+  body.page-products .care-hero-copy,body.page-review .review-hero-copy{transform:translateX(-20px)}
+}
