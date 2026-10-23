@@ -1474,3 +1474,9 @@ body.site-unified .btn.outline,body.site-unified .btn-ghost{box-shadow:none;back
  body.page-home .soncare-hero::before{background-image:url('../assets/images/soncare-home-b-blended-v21.jpg')!important;background-size:100% 100%!important;background-position:center!important;}
  body.page-home .soncare-hero{background:#f9fcfe!important}
 }
+
+/* v22: carefully feathered full-bleed original portrait; prevent broad dark blur */
+@media (min-width:1101px){
+ body.page-home .soncare-hero::before{background-image:url('../assets/images/soncare-home-b-soft-v22.jpg')!important;background-size:100% 100%!important;background-position:center!important}
+ body.page-home .soncare-hero .hero-inner{max-width:1280px!important}
+}
