@@ -1480,3 +1480,49 @@ body.site-unified .btn.outline,body.site-unified .btn-ghost{box-shadow:none;back
  body.page-home .soncare-hero::before{background-image:url('../assets/images/soncare-home-b-soft-v22.jpg')!important;background-size:100% 100%!important;background-position:center!important}
  body.page-home .soncare-hero .hero-inner{max-width:1280px!important}
 }
+
+/* v25 — Reference-matched homepage top section; all other pages untouched. */
+body.page-home .site-notice{display:none!important}
+body.page-home .unified-header{background:linear-gradient(100deg,#06284c,#073566 52%,#052448)!important;border-bottom:1px solid rgba(255,255,255,.22)!important;box-shadow:0 8px 22px rgba(4,25,49,.14)}
+body.page-home .unified-header .brand .rc b,body.page-home .unified-header .brand .sf{color:#fff!important}
+body.page-home .unified-header .brand .rc small{color:#e1eefa!important}
+body.page-home .unified-header .brand .sf:after{content:'Samsung Fire & Marine\A Insurance';display:block;white-space:pre;font-size:9px;font-weight:650;letter-spacing:0;line-height:1.1;margin-top:2px;color:#d8e7f8}
+body.page-home .unified-header .brand{gap:17px}
+body.page-home .unified-header .brand .sf{padding-left:17px;border-left:1px solid rgba(255,255,255,.32)}
+body.page-home .unified-header .menu>a{color:#f8fbff!important;border-bottom-color:transparent!important}
+body.page-home .unified-header .menu>a.active{border-bottom-color:#fff!important}
+body.page-home .unified-header .menu>a.nav-consult{background:#ffdb82!important;color:#07284c!important;border:1px solid #f4ce78!important;box-shadow:0 6px 15px rgba(0,0,0,.08)}
+body.page-home .unified-header .menu>a.nav-consult:before{content:'▢';font-size:13px;margin-right:6px}
+body.page-home .unified-header .head-actions .btn{background:transparent!important;color:#fff!important;border:1px solid #e5b95f!important;box-shadow:none!important}
+body.page-home .unified-header .head-actions .js-phone:before{content:'☎';color:#ffdb82;margin-right:6px}
+body.page-home .unified-header .head-actions .js-sms:before{content:'✉';color:#ffdb82;margin-right:6px}
+body.page-home .soncare-hero .soncare-kicker{color:#0759c2!important;font-weight:900}
+body.page-home .soncare-hero .soncare-brand{color:#0a2b51!important;letter-spacing:.18em!important;font-weight:800!important}
+body.page-home .soncare-hero .hero-copy h1{color:#092b50!important;font-weight:950!important}
+body.page-home .soncare-hero .hero-copy h1 em{color:#0961ca!important}
+body.page-home .soncare-hero .soncare-mainline{color:#102f54!important;font-weight:900!important}
+body.page-home .soncare-hero .lead{color:#667283!important}
+body.page-home .soncare-hero .hero-cta .btn.primary{background:#092d55!important;color:white!important;box-shadow:0 8px 20px rgba(8,39,72,.16)}
+body.page-home .soncare-hero .hero-cta .btn.outline{background:rgba(255,255,255,.89)!important;color:#0b2d50!important;border:1px solid #cbd5e2!important}
+body.page-home .soncare-hero .soncare-sign{transform:none!important;font-weight:800!important}
+@media(min-width:1101px){
+ body.page-home .unified-header .nav{height:88px!important;gap:11px!important}
+ body.page-home .unified-header .menu{gap:clamp(9px,1vw,18px)!important}
+ body.page-home .unified-header .brand .rc{min-width:190px!important}
+ body.page-home .soncare-hero .hero-inner{min-height:550px!important}
+ body.page-home .soncare-hero .hero-copy{min-height:550px!important;padding:56px 0 65px!important}
+ body.page-home .soncare-hero .hero-copy h1{font-size:clamp(44px,3.7vw,64px)!important;margin-bottom:18px!important;letter-spacing:-.067em!important}
+ body.page-home .soncare-hero .soncare-mainline{margin-bottom:9px!important}
+ body.page-home .soncare-hero .hero-cta .btn{min-height:62px!important;padding:0 27px!important}
+ body.page-home .soncare-hero .soncare-sign{right:max(12px,calc((1280px - 100vw)/2 + 40px))!important;bottom:33px!important}
+}
+@media(max-width:1180px){
+ body.page-home .unified-header .menu{background:#092b50!important;top:74px!important}
+ body.page-home .unified-header .menu-btn{background:transparent!important;border-color:rgba(255,255,255,.65)!important}
+ body.page-home .unified-header .menu-btn span{background:#fff!important}
+}
+@media(max-width:620px){
+ body.page-home .unified-header .brand .sf:after{font-size:7px}
+ body.page-home .unified-header .brand .sf{padding-left:10px}
+ body.page-home .soncare-hero .hero-copy h1{white-space:normal!important}
+}
