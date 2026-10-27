@@ -43,20 +43,21 @@
  .page-products .care-hero-copy h1 .care-hero-title-line{display:block;white-space:nowrap;font-size:clamp(34px,3.05vw,48px);letter-spacing:-.065em;margin-top:6px;}
 }
 </style>
-<style id="soncare-products-hero-v46">
-/* v46: insurance products hero — full-bleed softly blended caregiving photo */
-@media (min-width:901px) {
- body.page-products .care-hero{position:relative;isolation:isolate;overflow:hidden;background:#fff!important;}
- body.page-products .care-hero::before{content:"";position:absolute;z-index:0;top:0;bottom:0;right:0;width:67%;background:url('/assets/images/care-hero-wide-blended-v46.webp') right center / cover no-repeat;pointer-events:none;}
- body.page-products .care-hero::after{content:"";position:absolute;z-index:0;inset:0;background:linear-gradient(90deg,#fff 0%,#fff 31%,rgba(255,255,255,.96) 39%,rgba(255,255,255,.66) 49%,rgba(255,255,255,.05) 67%,transparent 82%),linear-gradient(0deg,rgba(255,255,255,.70),transparent 13%);pointer-events:none;}
- body.page-products .care-hero-grid{position:relative;z-index:1;min-height:610px;}
- body.page-products .care-hero-copy{z-index:2;}
- body.page-products .care-hero-photo{background:none!important;visibility:hidden;}
+<style id="soncare-products-hero-v47">
+/* v47: remove inherited elliptical radius and ensure natural full-width background */
+@media (min-width:901px){
+ body.page-products .care-hero{position:relative!important;isolation:isolate;overflow:hidden;background:#fff!important;}
+ body.page-products .care-hero::before{content:""!important;display:block!important;position:absolute!important;top:0!important;bottom:0!important;left:auto!important;right:0!important;width:70%!important;height:auto!important;border-radius:0!important;clip-path:none!important;-webkit-clip-path:none!important;-webkit-mask-image:none!important;mask-image:none!important;background: url('/assets/images/care-hero-wide-blended-v46.webp') center center / cover no-repeat!important;z-index:0!important;pointer-events:none!important;}
+ body.page-products .care-hero::after{content:""!important;display:block!important;position:absolute!important;inset:0!important;width:100%!important;height:100%!important;border-radius:0!important;clip-path:none!important;-webkit-mask-image:none!important;mask-image:none!important;background:linear-gradient(90deg,#fff 0%,#fff 27%,rgba(255,255,255,.98) 35%,rgba(255,255,255,.82) 44%,rgba(255,255,255,.26) 59%,transparent 74%),linear-gradient(0deg,rgba(255,255,255,.45) 0%,transparent 16%)!important;z-index:1!important;pointer-events:none!important;}
+ body.page-products .care-hero-grid{position:relative;z-index:2;min-height:610px;}
+ body.page-products .care-hero-copy{position:relative;z-index:3;}
+ body.page-products .care-hero-photo{display:none!important;}
 }
 @media (max-width:900px){
  body.page-products .care-hero{background:#fff!important;}
- body.page-products .care-hero-photo{background:linear-gradient(0deg,rgba(255,255,255,.55),transparent 23%),linear-gradient(90deg,rgba(255,255,255,.45),transparent 35%),url('/assets/images/care-hero-wide-blended-v46.webp') 58% center / cover no-repeat!important;}
- body.page-products .care-hero-photo span{display:none;}
+ body.page-products .care-hero::before,body.page-products .care-hero::after{display:none!important;}
+ body.page-products .care-hero-photo{display:block!important;visibility:visible!important;position:relative!important;left:auto!important;right:auto!important;top:auto!important;bottom:auto!important;width:100%!important;min-height:300px!important;border-radius:0!important;clip-path:none!important;-webkit-mask-image:none!important;mask-image:none!important;box-shadow:none!important;background:linear-gradient(0deg,#fff,transparent 23%),url('/assets/images/care-hero-wide-blended-v46.webp') 55% center / cover no-repeat!important;}
+ body.page-products .care-hero-photo span{display:none!important;}
 }
 </style></head><body class="page-products site-unified subpage care-landing"><a class="skip site-skip" href="/products/#main">본문 바로가기</a><div class="site-notice">본 사이트는 삼성화재 공식 홈페이지가 아닌 손성준 RC 개인 상담 홈페이지입니다.</div><header class="unified-header"><div class="wrap nav"><a aria-label="홈으로" class="brand" href="/home/"><div class="rc"><b>손성준 RC</b><small>당신의 오늘, 더 든든하게</small></div><div class="sf">삼성화재</div></a><button aria-controls="primary-nav" aria-expanded="false" class="menu-btn" type="button"><span></span><span></span><span></span><b class="sr-only">메뉴 열기</b></button><nav aria-label="주 메뉴" class="menu" id="primary-nav"><a href="/home/">홈</a><a href="/samsung/">삼성화재</a><a href="/about/">RC 소개</a><a aria-current="page" class="active" href="/products/">보험상품</a><a href="/review/">보험점검</a><a href="/claim/">보험금 청구</a><a href="/hidden-insurance/">숨은 보험금</a><a class="nav-consult" href="/contact/">문의</a></nav><div class="head-actions"><a class="btn primary js-phone" href="tel:01038173043">전화 상담</a><a class="btn outline js-sms" href="sms:01038173043">문자 상담</a></div></div></header>
 <main id="main">
