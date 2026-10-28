@@ -1,0 +1,2 @@
+SON CARE ONE v52 — layout refinement
+Based on v51. Wider fluid max-width 1540px for desktop, enhanced hero composition, 4 service cards, consistent section spacing, tablet/mobile adaptations. Original pages/contact and intro preserved. Static checks completed; browser display not verified because local navigation was blocked in test environment.

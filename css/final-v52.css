@@ -1,0 +1,75 @@
+/* v52 — full-width editorial layout and responsive visual balance. Non-destructive overrides. */
+:root{--layout-max:1540px;--v52-gutter:clamp(20px,3.6vw,76px);--v52-navy:#102b4c;--v52-blue:#286cc7}
+html{scroll-padding-top:84px}body.site-unified{overflow-x:clip}
+body.site-unified .wrap{width:calc(100% - 2 * var(--v52-gutter))!important;max-width:var(--layout-max)!important;margin-inline:auto!important}
+body.page-home .unified-header .nav{width:calc(100% - 2 * var(--v52-gutter))!important;max-width:var(--layout-max)!important;min-height:78px;height:auto!important;gap:clamp(13px,1.5vw,29px)!important}
+body.page-home .unified-header .brand{flex-shrink:0;gap:clamp(10px,1vw,17px)!important}
+body.page-home .unified-header .menu{gap:clamp(9px,1vw,19px)!important}
+body.page-home .unified-header .head-actions{gap:9px!important;flex-shrink:0}
+body.page-home .unified-header .head-actions .btn{white-space:nowrap}
+body.page-home .soncare-hero{background:linear-gradient(110deg,#fff 8%,#f5f9fe 53%,#e9f3ff 100%)!important}
+@media(min-width:1101px){
+ body.page-home .soncare-hero .hero-inner{width:calc(100% - 2 * var(--v52-gutter))!important;max-width:var(--layout-max)!important;margin-inline:auto!important;grid-template-columns:minmax(0,54%) minmax(0,46%)!important;min-height:clamp(590px,41vw,740px)!important;padding:clamp(34px,3.8vw,66px) 0!important;align-items:center!important;gap:0!important}
+ body.page-home .soncare-hero .hero-copy{padding:0 clamp(30px,4.5vw,80px) 0 0!important;max-width:790px!important;align-self:center!important}
+ body.page-home .soncare-hero .hero-art{height:clamp(510px,36vw,650px)!important;min-height:0!important;align-self:stretch!important;border-radius:26px 26px 0 0;overflow:hidden}
+ body.page-home .soncare-hero .hero-art .photo{inset:0!important}
+ body.page-home .soncare-hero .hero-art .photo img{width:100%!important;height:100%!important;object-fit:cover!important;object-position:center 24%!important}
+ body.page-home .soncare-hero .hero-art:before{background:linear-gradient(90deg,rgba(245,249,254,.36),transparent 23%)!important}
+ body.page-home .soncare-hero .hero-copy h1{font-size:clamp(52px,4.1vw,78px)!important;line-height:1.13!important;margin:0 0 25px!important}
+ body.page-home .soncare-hero .hero-copy .lead{font-size:clamp(16px,1.18vw,19px)!important;line-height:1.8!important}
+ body.page-home .soncare-hero .hero-cta{margin-top:30px!important;gap:12px!important}
+ body.page-home .soncare-hero .hero-cta .btn{min-height:56px!important;padding:15px clamp(20px,2vw,30px)!important;font-size:15px!important}
+}
+body.page-home .v51-services{padding:clamp(50px,5vw,78px) 0 clamp(57px,5vw,82px)!important}
+body.page-home .v51-services-head{margin-bottom:30px!important}
+body.page-home .v51-service-grid{gap:clamp(12px,1.35vw,22px)!important}
+body.page-home .v51-service{padding:clamp(19px,2vw,30px)!important;min-height:156px!important;gap:16px!important;border-radius:20px!important}
+body.page-home .v51-service strong{font-size:clamp(15px,1.12vw,18px)!important}
+body.page-home .v51-service small{font-size:13px!important}
+body.page-home .help-section,body.page-home .section{padding-top:clamp(52px,5vw,84px)!important;padding-bottom:clamp(52px,5vw,84px)!important}
+body.page-home .help-grid,body.page-home .principle-grid{gap:clamp(14px,1.5vw,24px)!important}
+body.page-home .products{gap:clamp(9px,1vw,16px)!important}
+body.page-home .process{gap:clamp(20px,2.5vw,40px)!important}
+body.page-home .bottom-grid{gap:clamp(14px,1.5vw,24px)!important}
+body.page-home .bottom-grid>.panel{min-width:0}
+@media(min-width:1101px) and (max-width:1380px){
+ body.page-home .unified-header .nav{gap:11px!important}
+ body.page-home .unified-header .menu{gap:9px!important;font-size:12px!important}
+ body.page-home .unified-header .head-actions .btn{padding:9px 11px!important;font-size:12px!important}
+ body.page-home .soncare-hero .hero-inner{grid-template-columns:minmax(0,56%) minmax(0,44%)!important}
+ body.page-home .soncare-hero .hero-copy h1{font-size:clamp(47px,4.25vw,59px)!important}
+}
+@media(min-width:761px) and (max-width:1100px){
+ body.page-home .soncare-hero .hero-inner{width:100%!important;max-width:none!important;grid-template-columns:1.05fr .95fr!important;min-height:530px!important}
+ body.page-home .soncare-hero .hero-copy{padding:60px 20px 60px var(--v52-gutter)!important}
+ body.page-home .soncare-hero .hero-copy h1{font-size:clamp(39px,5vw,54px)!important}
+ body.page-home .soncare-hero .hero-art{min-height:530px!important}
+ body.page-home .v51-service-grid{grid-template-columns:repeat(2,minmax(0,1fr))!important}
+ body.page-home .process,body.page-home .bottom-grid{grid-template-columns:1fr!important}
+}
+@media(max-width:760px){
+ :root{--v52-gutter:18px}
+ body.page-home .unified-header .nav{min-height:65px!important;height:65px!important}
+ body.page-home .soncare-hero .hero-inner{width:100%!important;max-width:none!important;display:flex!important;flex-direction:column!important;min-height:0!important;gap:0!important}
+ body.page-home .soncare-hero .hero-copy{order:1!important;width:100%!important;max-width:none!important;padding:clamp(39px,7vw,58px) var(--v52-gutter) 33px!important;margin:0!important;min-height:0!important;text-align:left!important}
+ body.page-home .soncare-hero .hero-copy h1{font-size:clamp(36px,9vw,53px)!important;line-height:1.18!important;word-break:keep-all!important;margin:13px 0 20px!important}
+ body.page-home .soncare-hero .hero-copy .lead{font-size:15px!important;line-height:1.75!important}
+ body.page-home .soncare-hero .hero-cta{display:grid!important;grid-template-columns:repeat(2,minmax(0,1fr))!important;gap:10px!important;margin-top:26px!important}
+ body.page-home .soncare-hero .hero-cta .btn{padding:13px 8px!important;font-size:13px!important;min-height:51px!important;white-space:nowrap}
+ body.page-home .soncare-hero .hero-art{order:2!important;width:100%!important;min-height:clamp(275px,70vw,420px)!important;height:clamp(275px,70vw,420px)!important;overflow:hidden!important}
+ body.page-home .soncare-hero .hero-art .photo{inset:0!important}
+ body.page-home .soncare-hero .hero-art .photo img{height:100%!important;width:100%!important;object-fit:cover!important;object-position:center 27%!important}
+ body.page-home .v51-services{padding:43px 0 52px!important}
+ body.page-home .v51-service-grid{grid-template-columns:repeat(2,minmax(0,1fr))!important;gap:11px!important}
+ body.page-home .v51-service{padding:16px!important;min-height:151px!important;gap:10px!important;flex-direction:column!important}
+ body.page-home .v51-service strong{font-size:14px!important}
+ body.page-home .v51-service small{font-size:11.5px!important}
+ body.page-home .help-section,body.page-home .section{padding-top:46px!important;padding-bottom:50px!important}
+ body.page-home .process,body.page-home .bottom-grid{grid-template-columns:minmax(0,1fr)!important}
+ body.page-home .product-band{grid-template-columns:minmax(0,1fr)!important}
+ body.page-home .products{grid-template-columns:repeat(2,minmax(0,1fr))!important}
+ body.page-home .steps{grid-template-columns:repeat(2,minmax(0,1fr))!important}
+ body.page-home .prep{grid-template-columns:repeat(3,minmax(0,1fr))!important}
+}
+@media(max-width:359px){body.page-home .v51-service-grid{grid-template-columns:1fr!important}body.page-home .v51-service{min-height:0!important;flex-direction:row!important}body.page-home .soncare-hero .hero-cta{grid-template-columns:1fr!important}}
+@media(prefers-reduced-motion:reduce){body.page-home .v51-service:hover{transform:none!important}}
