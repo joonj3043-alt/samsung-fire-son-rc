@@ -1,0 +1,47 @@
+/* SON CARE ONE v49 visual refresh. Homepage only; preserve existing routing and JS. */
+body.page-home{--primary:#0b315d;--accent:#ddba6d;--pale:#f2f7fd;--line:#e1eaf5}
+body.page-home .unified-header{background:#0b315d!important;border-bottom:1px solid rgba(255,255,255,.12)!important;box-shadow:0 4px 20px rgba(5,31,65,.10)}
+body.page-home .unified-header .nav{height:86px!important;gap:16px!important}
+body.page-home .unified-header .brand{gap:20px!important;color:#fff!important}
+body.page-home .unified-header .brand .rc b{color:#fff!important;font-size:clamp(17px,1.4vw,22px)!important}
+body.page-home .unified-header .brand .rc small{color:#d7e5f5!important}
+body.page-home .unified-header .brand .sf{color:#fff!important;font-size:clamp(19px,1.6vw,25px)!important;border-left:1px solid rgba(255,255,255,.32);padding-left:20px}
+body.page-home .unified-header .menu{gap:clamp(10px,1vw,18px)!important;align-items:center}
+body.page-home .unified-header .menu a{color:#fff!important;font-size:clamp(12px,.83vw,14px)!important;white-space:nowrap}
+body.page-home .unified-header .menu a.active{position:relative}
+body.page-home .unified-header .menu a.active:after{content:"";position:absolute;bottom:-13px;left:20%;right:20%;height:3px;background:#f5d779;border-radius:3px}
+body.page-home .unified-header .nav-consult{background:#f3d574!important;color:#092b50!important;border:0!important;border-radius:14px!important;padding:12px 19px!important}
+body.page-home .unified-header .head-actions .btn{background:transparent!important;color:#fff!important;border:1px solid #eacb7f!important;border-radius:999px!important;padding:12px 16px!important;white-space:nowrap}
+body.page-home .unified-header .head-actions .btn:hover{background:rgba(255,255,255,.12)!important}
+body.page-home .soncare-hero{background:#f7fbff!important;overflow:visible!important}
+@media(min-width:1101px){
+body.page-home .soncare-hero::before{background-size:cover!important;background-position:center 43%!important}
+body.page-home .soncare-hero::after{background:linear-gradient(90deg,#f7fbff 0%,rgba(247,251,255,.98) 23%,rgba(247,251,255,.92) 40%,rgba(247,251,255,.18) 65%,rgba(247,251,255,0) 83%)!important}
+body.page-home .soncare-hero .hero-inner{min-height:565px!important;padding:74px 0 96px!important;grid-template-columns:minmax(0,57%) minmax(0,43%)!important}
+body.page-home .soncare-hero .hero-copy{max-width:740px!important}
+body.page-home .soncare-hero .hero-copy h1{font-size:clamp(48px,4.0vw,73px)!important;line-height:1.13!important;letter-spacing:-.068em!important;margin-bottom:20px!important}
+body.page-home .soncare-hero .soncare-mainline{font-size:clamp(17px,1.27vw,21px)!important;font-weight:850!important;margin-bottom:12px!important}
+body.page-home .soncare-hero .lead{font-size:clamp(14px,1.06vw,17px)!important;max-width:620px!important;margin-bottom:30px!important}
+body.page-home .soncare-hero .soncare-sign{left:auto!important;right:-10%!important;bottom:35%!important;text-align:left!important;color:#17365b!important;text-shadow:none!important;font-weight:850!important;font-size:clamp(16px,1.2vw,20px)!important;transform:rotate(-6deg)!important;width:205px!important}
+}
+body.page-home .soncare-hero .soncare-kicker{font-size:14px!important;font-weight:900!important;letter-spacing:.045em!important}
+body.page-home .soncare-hero .soncare-brand{font-weight:850!important;letter-spacing:.23em!important}
+body.page-home .soncare-hero .hero-copy h1 em{color:#236be5!important;font-style:italic!important}
+body.page-home .soncare-hero .hero-cta{gap:14px!important}
+body.page-home .soncare-hero .hero-cta .btn{min-height:58px!important;border-radius:999px!important;padding:15px 29px!important;font-size:16px!important;box-shadow:0 8px 20px rgba(9,44,84,.10)!important}
+body.page-home .soncare-hero .hero-cta .primary{background:linear-gradient(135deg,#13539a,#082e59)!important;border-color:#13539a!important;color:#fff!important}
+body.page-home .soncare-hero .hero-cta .outline{background:rgba(255,255,255,.92)!important;border:1px solid #b6cee9!important;color:#0b315d!important}
+body.page-home .soncare-hero .hero-cta a:hover{transform:translateY(-2px)!important}
+body.page-home .home-feature-rail{position:relative;z-index:10;margin-top:-53px;padding-bottom:35px}
+body.page-home .home-feature-rail .rail-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:0;background:#fff;border-radius:20px;box-shadow:0 18px 48px rgba(13,48,88,.12);border:1px solid rgba(213,225,238,.85);overflow:hidden}
+body.page-home .home-feature-rail .rail-item{display:flex;align-items:center;gap:14px;min-width:0;padding:26px 20px;color:#102e54;text-decoration:none;position:relative;transition:background .18s}
+body.page-home .home-feature-rail .rail-item:not(:last-child):after{content:"";position:absolute;right:0;top:22%;height:56%;width:1px;background:#e5edf5}
+body.page-home .home-feature-rail .rail-item:hover{background:#f5f9ff}
+body.page-home .home-feature-rail .rail-icon{height:58px;width:58px;flex:0 0 58px;border-radius:50%;display:grid;place-items:center;background:#eaf3ff;font-size:27px}
+body.page-home .home-feature-rail .rail-item:nth-child(even) .rail-icon{background:#fff4db}
+body.page-home .home-feature-rail strong{display:block;font-size:17px;margin-bottom:5px;letter-spacing:-.03em}
+body.page-home .home-feature-rail small{display:block;color:#65788d;font-size:12px;line-height:1.55}
+body.page-home .help-section{padding-top:48px!important}
+@media(max-width:1250px) and (min-width:1101px){body.page-home .unified-header .nav{gap:10px!important}body.page-home .unified-header .brand{gap:10px!important}body.page-home .unified-header .brand .sf{padding-left:12px}body.page-home .home-feature-rail .rail-item{padding:21px 12px;gap:9px}body.page-home .home-feature-rail .rail-icon{width:48px;height:48px;flex-basis:48px}}
+@media(max-width:1100px){body.page-home .unified-header .menu{top:86px!important;background:#0b315d!important}body.page-home .unified-header .menu a{border-color:rgba(255,255,255,.16)!important}body.page-home .unified-header .menu-btn{background:#fff!important}body.page-home .soncare-hero .hero-copy{background:linear-gradient(125deg,#fff,#edf5ff)!important}body.page-home .soncare-hero .hero-art .photo{background:#eef5ff!important}body.page-home .soncare-hero .soncare-sign{color:#fff!important;text-shadow:0 2px 8px rgba(0,0,0,.65)!important}body.page-home .home-feature-rail{margin-top:0!important;padding:20px 0 30px}body.page-home .home-feature-rail .rail-grid{grid-template-columns:repeat(2,minmax(0,1fr))}body.page-home .home-feature-rail .rail-item:nth-child(2):after{display:none}}
+@media(max-width:620px){body.page-home .unified-header .brand .sf{font-size:18px!important;padding-left:12px}body.page-home .unified-header .brand .rc b{font-size:16px!important}body.page-home .unified-header .nav{height:74px!important}body.page-home .unified-header .menu{top:74px!important}body.page-home .soncare-hero .hero-copy{padding-top:35px!important;padding-bottom:30px!important}body.page-home .soncare-hero .hero-copy h1{font-size:clamp(34px,8.7vw,44px)!important}body.page-home .soncare-hero .soncare-mainline{font-size:15px!important}body.page-home .soncare-hero .lead{font-size:13px!important}body.page-home .soncare-hero .hero-cta .btn{font-size:12px!important;min-height:52px!important;padding:12px 7px!important}body.page-home .home-feature-rail .rail-grid{border-radius:15px}body.page-home .home-feature-rail .rail-item{padding:17px 11px;display:block;text-align:center}body.page-home .home-feature-rail .rail-item:after{display:none}body.page-home .home-feature-rail .rail-icon{margin:0 auto 9px;width:49px;height:49px;font-size:23px}body.page-home .home-feature-rail strong{font-size:14px}body.page-home .home-feature-rail small{font-size:11px}body.page-home .home-feature-rail .rail-item:nth-child(-n+2){border-bottom:1px solid #e5edf5}body.page-home .home-feature-rail .rail-item:nth-child(odd){border-right:1px solid #e5edf5}}
