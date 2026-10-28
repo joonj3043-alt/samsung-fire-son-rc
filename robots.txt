@@ -1,4 +1,5 @@
 User-agent: *
 Allow: /
+Disallow: /intro/
 
-# 도메인 연결 후 sitemap.xml 주소를 추가하세요.
+Sitemap: https://soncareone.com/sitemap.xml
