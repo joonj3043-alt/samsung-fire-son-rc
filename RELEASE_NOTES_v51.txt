@@ -1,0 +1,9 @@
+SON CARE ONE v51 FINAL
+Source: SON_CARE_ONE_v50_main_first.zip (based on user v48 source)
+- Landing at / shows RC main page. Intro retained at /intro/.
+- Added four service navigation cards to homepage.
+- Improved hero text, CTA contrast, menu spacing, responsive cards.
+- Preserved all existing contact numbers and original portrait files.
+- Added OG URL/image tags and normalized homepage title.
+- Removed historic QA JSON and test.py from deploy archive.
+- Static links and images tested; browser test evidence included separately where available.

@@ -1,0 +1,30 @@
+/* SON CARE ONE v51: final visual polish, appended after all legacy CSS. */
+:root{--v51-navy:#102d51;--v51-blue:#266bcd;--v51-line:#dde7f1}
+body.page-home .unified-header{background:#fff!important;box-shadow:0 3px 18px rgba(14,42,79,.05)}
+body.page-home .unified-header .nav{gap:16px}
+body.page-home .unified-header .brand{gap:14px}
+body.page-home .unified-header .menu{gap:13px}
+body.page-home .unified-header .head-actions .btn{min-height:40px;padding:10px 14px}
+body.page-home .soncare-hero{background:#f7faff!important}
+body.page-home .soncare-hero .hero-copy h1{font-weight:850!important;letter-spacing:-.065em!important}
+body.page-home .soncare-hero .hero-copy h1 em{font-style:normal!important;color:var(--v51-blue)!important}
+body.page-home .soncare-hero .hero-copy .lead{color:#53677d!important}
+body.page-home .soncare-hero .hero-cta .btn.primary{background:var(--v51-navy)!important;color:#fff!important;border-color:var(--v51-navy)!important}
+body.page-home .soncare-hero .hero-cta .btn.outline{color:var(--v51-navy)!important;border-color:#b5c9df!important;background:#fff!important}
+body.page-home .soncare-hero .hero-cta .btn{border-radius:999px!important;min-height:52px!important;font-weight:800!important}
+.v51-services{position:relative;padding:45px 0 60px;background:#fff}
+.v51-services-head{text-align:center;margin:0 auto 25px}
+.v51-services-head p{font-size:11px;font-weight:850;letter-spacing:.19em;color:#3579c2;margin:0 0 6px}
+.v51-services-head h2{font-size:clamp(23px,2.1vw,30px);color:#152e4b;line-height:1.3;margin:0}
+.v51-service-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:15px}
+.v51-service{display:flex;gap:13px;align-items:flex-start;padding:25px 17px;background:#fff;border:1px solid var(--v51-line);border-radius:18px;min-height:145px;box-shadow:0 12px 30px rgba(16,45,81,.055);transition:transform .15s ease,box-shadow .15s ease}
+.v51-service:hover{transform:translateY(-3px);box-shadow:0 16px 32px rgba(16,45,81,.11)}
+.v51-service-icon{display:grid;place-items:center;flex:0 0 43px;height:43px;border-radius:14px;background:#eaf2fc;color:#2067bb;font-size:25px;line-height:1}
+.v51-service strong{display:block;color:#14375d;font-size:16px;margin:1px 0 8px}
+.v51-service small{display:block;color:#627387;font-size:12px;line-height:1.65;word-break:keep-all}
+.v51-service:focus-visible{outline:3px solid #246bc6;outline-offset:4px}
+@media(min-width:1101px){body.page-home .soncare-hero .hero-inner{min-height:560px!important}}
+@media(min-width:761px) and (max-width:1100px){.v51-service-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:760px){.v51-services{padding:36px 0 46px}.v51-service-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}.v51-service{padding:17px 12px;gap:9px;min-height:154px;flex-direction:column}.v51-service-icon{width:39px;height:39px;flex-basis:auto;font-size:21px}.v51-service strong{font-size:14px;margin-bottom:5px}.v51-service small{font-size:11px}.v51-services-head{margin-bottom:20px}body.page-home .soncare-hero .hero-copy h1{overflow-wrap:normal!important;word-break:keep-all!important}}
+@media(max-width:360px){.v51-service-grid{grid-template-columns:1fr}.v51-service{flex-direction:row;min-height:auto}.v51-service-icon{flex:0 0 38px}}
+@media(prefers-reduced-motion:reduce){.v51-service{transition:none}}
