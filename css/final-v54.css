@@ -83,3 +83,14 @@ a:focus-visible,button:focus-visible,summary:focus-visible{outline:3px solid #f0
 }
 @media(max-width:359px){body.page-home .soncare-hero .hero-cta{grid-template-columns:1fr!important}body.page-home .v51-service-grid{grid-template-columns:1fr!important}body.page-home .v51-service{flex-direction:row!important;min-height:0!important}}
 @media(prefers-reduced-motion:reduce){*,*:before,*:after{scroll-behavior:auto!important;animation-duration:.01ms!important;transition-duration:.01ms!important}}
+
+/* v54 preservation correction: restore the original portrait message. */
+body.page-home .soncare-hero .hero-art .hero-portrait-message {
+ position:absolute;z-index:5;left:clamp(16px,2.4vw,40px);bottom:clamp(18px,3vw,40px);
+ margin:0;padding:11px 15px;border-radius:10px;
+ color:#fff;background:rgba(9,45,82,.83);box-shadow:0 6px 20px rgba(0,0,0,.13);
+ font-size:clamp(14px,1.15vw,19px);font-weight:750;line-height:1.55;letter-spacing:-.035em;
+ word-break:keep-all;text-shadow:0 1px 3px rgba(0,0,0,.16);pointer-events:none;
+}
+@media(max-width:760px){body.page-home .soncare-hero .hero-art .hero-portrait-message{left:14px;bottom:16px;font-size:14px;padding:9px 12px;max-width:50%}}
+@media(max-width:359px){body.page-home .soncare-hero .hero-art .hero-portrait-message{font-size:12px;max-width:54%}}
