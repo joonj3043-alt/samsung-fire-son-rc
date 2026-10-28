@@ -1,0 +1,42 @@
+/* v53 screenshot-corrective override — legibility, visible portrait and viewport rhythm */
+body.page-home .unified-header{background:#092c51!important;background-image:none!important;border-bottom:1px solid rgba(255,255,255,.14)!important;box-shadow:0 3px 14px rgba(7,30,57,.16)!important;backdrop-filter:none!important}
+body.page-home .unified-header .brand .sf,body.page-home .unified-header .brand .rc b{color:#fff!important;text-shadow:none!important}
+body.page-home .unified-header .brand .rc small{color:#c3d9f0!important}
+body.page-home .unified-header .menu>a:not(.nav-consult){color:#f5f8fd!important;text-shadow:none!important;opacity:1!important}
+body.page-home .unified-header .menu>a.active:not(.nav-consult){color:#fff!important;border-bottom-color:#f2cf6a!important}
+body.page-home .unified-header .menu>a:not(.nav-consult):hover{color:#f8d778!important}
+body.page-home .unified-header .menu>a.nav-consult{background:#f8d878!important;border-color:#f8d878!important;color:#092c51!important;box-shadow:none!important}
+body.page-home .unified-header .head-actions{border-left-color:rgba(255,255,255,.22)!important}
+body.page-home .unified-header .head-actions .btn.primary,body.page-home .unified-header .head-actions .btn.outline{background:transparent!important;color:#fff!important;border:1px solid #d5b75f!important;box-shadow:none!important}
+body.page-home .unified-header .head-actions .btn:hover{background:rgba(255,255,255,.12)!important}
+body.page-home .soncare-hero{background:#f5f9fd!important;border:0!important}
+@media(min-width:1101px){
+ body.page-home .soncare-hero::before{background-size:cover!important;background-position:center center!important}
+ body.page-home .soncare-hero::after{background:linear-gradient(90deg,#f7fbff 0%,rgba(247,251,255,.96) 29%,rgba(247,251,255,.61) 47%,rgba(247,251,255,.02) 67%)!important}
+ body.page-home .soncare-hero .hero-inner{width:calc(100% - 2 * clamp(20px,3.6vw,76px))!important;max-width:1540px!important;min-height:clamp(570px,39vw,660px)!important;height:auto!important;padding:0!important;grid-template-columns:minmax(0,56%) minmax(0,44%)!important;align-items:center!important}
+ body.page-home .soncare-hero .hero-copy{max-width:800px!important;padding:38px 26px 38px 0!important}
+ body.page-home .soncare-hero .hero-copy h1{font-size:clamp(50px,4vw,73px)!important}
+ body.page-home .soncare-hero .hero-art{height:100%!important;min-height:570px!important;border:0!important;background:transparent!important;overflow:visible!important}
+ body.page-home .soncare-hero .hero-art .photo{display:none!important}
+ body.page-home .v51-services{padding-top:47px!important}
+}
+@media(min-width:761px) and (max-width:1100px){
+ body.page-home .soncare-hero .hero-inner{min-height:0!important}
+ body.page-home .soncare-hero .hero-art{min-height:480px!important;height:480px!important}
+ body.page-home .soncare-hero .hero-art .photo{display:block!important}
+ body.page-home .unified-header .menu{top:78px!important}
+}
+@media(max-width:1100px){
+ body.page-home .unified-header .menu-btn{background:rgba(255,255,255,.12)!important;border-color:rgba(255,255,255,.45)!important}
+ body.page-home .unified-header .menu-btn span{background:#fff!important}
+ body.page-home .unified-header .menu.open{background:#092c51!important;border-top-color:rgba(255,255,255,.2)!important}
+ body.page-home .unified-header .menu.open>a:not(.nav-consult){color:#fff!important;border-bottom-color:rgba(255,255,255,.15)!important}
+}
+@media(max-width:760px){
+ body.page-home .unified-header .menu{top:65px!important}
+ body.page-home .soncare-hero::before,body.page-home .soncare-hero::after{display:none!important}
+ body.page-home .soncare-hero .hero-copy{padding-top:40px!important}
+ body.page-home .soncare-hero .hero-art{border-radius:0!important;min-height:clamp(300px,80vw,440px)!important;height:clamp(300px,80vw,440px)!important}
+ body.page-home .soncare-hero .hero-art .photo{display:block!important;position:absolute!important;inset:0!important}
+ body.page-home .soncare-hero .hero-art .photo img{display:block!important;opacity:1!important;object-position:center 22%!important}
+}
