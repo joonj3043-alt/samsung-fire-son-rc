@@ -8,7 +8,7 @@ window.SITE_CONFIG = {
   kakaoUrl: "",
   officialUrl: "https://www.samsungfire.com/",
   claimUrl: "https://www.samsungfire.com/vh/page/VH.HPCLA001.do",
-  siteUrl: "https://soncareone.com",
+  siteUrl: "",
   formEndpoint: "",
   smsBody: "[홈페이지 상담문의] 안녕하세요. 손성준 RC님, 보험 상담 문의드립니다."
 };
